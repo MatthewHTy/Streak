@@ -1,11 +1,20 @@
 # Streak - Daily Workout Planner
 
-Streak is an app for users who would like to start being consistent at the gym. The point of the app is to start a streak in order for users to hit their fitness goals. 
+Do you have a problem consistently working out? Streak is an app for users who would like to start being consistent at the gym. 
 
 ## MVP
 
 * Users will have the option to Sign Up/Log In
-*
+* Users can start a workout streak by an increment of 1
+* Users can add workout plans/ideas as a daily entry
+* Users can retrieve workout plans/ideas 
+* Users can access a calendar (for ex: google calendar) and plan ahead for the week/month
+* Users can retrieve ideas on how to reward themselves after hitting a certain x streak (depending on the user)
 
+## Future Features
+
+* Users can interact with other fitness users.
+* Users can share their progress to facebook, instagram, twiiter, etc.
+* Users can store daily journal entries to the website.
 
 
