@@ -14,7 +14,7 @@ Do you have a problem consistently working out? Streak is an app for users who w
 ## Future Features
 
 * Users can interact with other fitness users.
-* Users can share their progress to facebook, instagram, twiiter, etc.
+* Users can share their progress to facebook, instagram, twitter, etc.
 * Users can store daily journal entries to the website.
 
 

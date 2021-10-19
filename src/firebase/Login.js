@@ -43,10 +43,10 @@ function Login() {
           Login with Google
         </button>
         <div>
-          <Link to="/reset">Forgot Password</Link>
+          <Link className="forgotpassword_btn" to="/reset">Forgot Password</Link>
         </div>
         <div>
-          Don't have an account? <Link to="/register">Register</Link> now.
+          Don't have an account? <Link className= "register_btn"to="/register">Register</Link> now.
         </div>
       </div>
     </div>
