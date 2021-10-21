@@ -9,7 +9,7 @@ import About from './navbarpage/About/About';
 import Profile from './navbarpage/Profile/Profile';
 import  WelcomeUser from './navbarpage/WelcomeUser/WelcomeUser';
 import WorkoutEntry from './navbarpage/WorkoutEntry/WorkoutEntry';
-
+import MainNavigation from './components/MainNavigation';
 
 
 function App() {
@@ -19,7 +19,9 @@ function App() {
 
     <div>
       <div>
-        <Route path='/'>
+        <MainNavigation />
+        <Switch>
+        <Route path='/' exact>
           <Homepage />
         </Route>
         <Route path='/about'>
@@ -34,6 +36,7 @@ function App() {
           <WorkoutEntry />
         </Route>
         </Route>
+        </Switch>
 
       </div>
       <Router> 
