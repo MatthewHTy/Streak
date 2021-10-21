@@ -4,11 +4,10 @@ import Login from "./firebase/Login";
 import Register from "./firebase/Register";
 import Reset from "./firebase/Reset";
 import Dashboard from "./firebase/Dashboard";
-import Homepage from './navbarpage/Homepage/Homepage';
-import About from './navbarpage/About/About';
-import Profile from './navbarpage/Profile/Profile';
-import  WelcomeUser from './navbarpage/WelcomeUser/WelcomeUser';
-import WorkoutEntry from './navbarpage/WorkoutEntry/WorkoutEntry';
+import Homepage from './components/pages/Homepage/Homepage';
+import About from './components/pages/About/About';
+import Profile from './components/pages/Profile/Profile';
+import WorkoutEntry from './components/pages/WorkoutEntry/WorkoutEntry';
 import MainNavigation from './components/MainNavigation';
 
 
@@ -16,7 +15,7 @@ function App() {
   return (
     // localhost:3000
     // my-page.com/
-
+//  NavBar
     <div>
       <div>
         <MainNavigation />
@@ -29,9 +28,6 @@ function App() {
         </Route>
         <Route path='/profile'>
           <Profile/>
-        <Route path='/welcome-user'>
-          <WelcomeUser />
-        </Route>
         <Route path='workout-entry'>
           <WorkoutEntry />
         </Route>
@@ -39,8 +35,9 @@ function App() {
         </Switch>
 
       </div>
+
       <Router> 
-        <Switch>
+        <Switch> 
           <Route exact path="/" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/reset" component={Reset} />
@@ -48,6 +45,7 @@ function App() {
         </Switch>
       </Router>
     </div>
+    // Firebase
 
   );
 }
