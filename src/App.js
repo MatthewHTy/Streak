@@ -4,6 +4,7 @@ import Login from "./firebase/Login";
 import Register from "./firebase/Register";
 import Reset from "./firebase/Reset";
 import Dashboard from "./firebase/Dashboard";
+import Homepage from './navbarpage/Homepage/Homepage';
 import About from './navbarpage/About/About';
 import Profile from './navbarpage/Profile/Profile';
 import  WelcomeUser from './navbarpage/WelcomeUser/WelcomeUser';
@@ -18,8 +19,20 @@ function App() {
 
     <div>
       <div>
-        <Route path=''>
-
+        <Route path='/'>
+          <Homepage />
+        </Route>
+        <Route path='/about'>
+          <About />
+        </Route>
+        <Route path='/profile'>
+          <Profile/>
+        <Route path='/welcome-user'>
+          <WelcomeUser />
+        </Route>
+        <Route path='workout-entry'>
+          <WorkoutEntry />
+        </Route>
         </Route>
 
       </div>
