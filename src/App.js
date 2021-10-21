@@ -4,22 +4,25 @@ import Login from "./firebase/Login";
 import Register from "./firebase/Register";
 import Reset from "./firebase/Reset";
 import Dashboard from "./firebase/Dashboard";
-import HomeNavigation from "./components/HomeNavigation/HomeNavigation";
-import Profile from "./components/Profile/Profile";
+import About from './navbarpage/About/About';
+import Profile from './navbarpage/Profile/Profile';
+import  WelcomeUser from './navbarpage/WelcomeUser/WelcomeUser';
+import WorkoutEntry from './navbarpage/WorkoutEntry/WorkoutEntry';
+
+
+
 function App() {
   return (
+    // localhost:3000
+    // my-page.com/
 
     <div>
-      <Router>
-        <Switch>
-          <Route exact path="">
-            <HomeNavigation />
-          </Route>
-          <Route exact path="">
-            <Profile />
-          </Route>
-        </Switch>
-      </Router>
+      <div>
+        <Route path=''>
+
+        </Route>
+
+      </div>
       <Router> 
         <Switch>
           <Route exact path="/" component={Login} />
