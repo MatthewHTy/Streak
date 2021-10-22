@@ -23,12 +23,12 @@ function App() {
         <Route path='/' exact>
           <Homepage />
         </Route>
-        <Route path='/about'>
+        <Route path='/about' exact>
           <About />
         </Route>
-        <Route path='/profile'>
+        <Route path='/profile' exact>
           <Profile/>
-        <Route path='workout-entry'>
+        <Route path='workout-entry' exact>
           <WorkoutEntry />
         </Route>
         </Route>

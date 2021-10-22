@@ -1,9 +1,8 @@
 function WorkoutEntry() {
-    return (
-        <h1>
-    <div>Workout Entry</div>
+    return <h1>
+        Workout Entry
         </h1>
-    )
+    
 };
 
 export default WorkoutEntry;
