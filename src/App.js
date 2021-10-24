@@ -21,6 +21,7 @@ function App() {
         <ul>
 
         <MainNavigation />
+
         <Switch>
         <Route path='/' exact>
           <Homepage />

@@ -7,6 +7,6 @@ function About () {
               
             </div>
         </h1>
-    )
-};
+    );
+}
 export default About

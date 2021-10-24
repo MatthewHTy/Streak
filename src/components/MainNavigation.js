@@ -9,10 +9,10 @@ function MainNavigation() {
         <div>Streak</div>
         <nav>
             <ul>
-                <Link to='/'>Home</Link>
-                <Link to='/about'>About</Link>
-                <Link to='/profile'>Profile</Link>
-                <Link to='/workout-entry'>Entry</Link>
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/about'>About</Link></li>
+                <li><Link to='/profile'>Profile</Link></li>
+                <li><Link to='/workout-entry'>WorkoutEntry</Link></li>
             </ul>
         </nav>
     </header>

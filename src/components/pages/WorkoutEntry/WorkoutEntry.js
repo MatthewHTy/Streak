@@ -1,9 +1,11 @@
 function WorkoutEntry() {
-  
-  return <h1>
-        Workout Entry
-        </h1>
-    
-  };
-  
+      return (
+          <h1>
+              <div>
+                  Workout Entry
+              </div>
+          </h1>
+      );
+  }
   export default WorkoutEntry;
+  
