@@ -18,6 +18,8 @@ function App() {
 //  NavBar
     <div>
       <div>
+        <ul>
+
         <MainNavigation />
         <Switch>
         <Route path='/' exact>
@@ -34,6 +36,7 @@ function App() {
         </Route>
         </Switch>
 
+        </ul>
       </div>
 
       <Router> 
