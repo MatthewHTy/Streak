@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom'
-
-
+import { Link } from 'react-router-dom';
+import classes from './MainNavigation.module.css';
+// import React from 'react';
 
 function MainNavigation() {
-    return <header>
+    return (<header className={classes.header}> 
         <div><Link to ="/streak">Streak</Link></div>
        
         <nav>
@@ -15,6 +15,7 @@ function MainNavigation() {
             </ul>
         </nav>
     </header>
+    )
 };
 export default MainNavigation;
 
