@@ -4,8 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:black;
-    padding: 0 10%;
+    background-color: black;
+    padding: 0 2.5%;
+    opacity: 75%;
   }
   
   .logo {
@@ -35,7 +36,7 @@
   .header a:hover,
   .header a:active,
   .header a.active {
-    color: white;
+    background: linear-gradient(180deg, #000000 0%, rgba(9, 240, 255, 0.75) 51.04%, #000000 100%);
   }
   
   .badge {
@@ -45,3 +46,8 @@
     padding: 0 1rem;
     margin-left: 0.5rem;
   }
+
+ body {
+    background: linear-gradient(180deg, #000000 0%, rgba(9, 240, 255, 0.75) 51.04%, #000000 100%)
+  }
+  /* background: linear-gradient(180deg, #000000 0%, rgba(9, 240, 255, 0.75) 51.04%, #000000 100%); */
