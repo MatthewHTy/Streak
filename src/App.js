@@ -8,7 +8,7 @@ import Homepage from './components/pages/Homepage/Homepage';
 import About from './components/pages/About/About';
 import WorkoutEntry from './components/pages/WorkoutEntry/WorkoutEntry';
 import Profile from './components/pages/Profile/Profile';
-import MainNavigation from './components/MainNavigation';
+import MainNavigation from './components/layout/MainNavigation';
 import Streak from './components/pages/Streak/Streak'
 
 
@@ -17,8 +17,8 @@ function App() {
     // localhost:3000
     // my-page.com/
 //  NavBar
-    <div>
-      <div>
+        <div className="firebase">
+        <div className="navbar">
         <ul>
 
         <MainNavigation />
@@ -34,7 +34,7 @@ function App() {
         <Route path='/about' exact>
           <About />
         </Route>
-        <Route path='/workoutentry' exact>
+        <Route path='/workout-entry' exact>
           <WorkoutEntry />
         </Route>
         <Route path='/profile' exact>
