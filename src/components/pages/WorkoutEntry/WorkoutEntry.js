@@ -7,5 +7,5 @@ function WorkoutEntry() {
           </h1>
       );
   }
-  export default WorkoutEntry;
+export default WorkoutEntry;
   

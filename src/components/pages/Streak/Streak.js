@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Streak() {
+function Streak() {
     return (
         <div>
             Streak Counter
         </div>
     )
 }
+
+export default Streak;

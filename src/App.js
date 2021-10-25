@@ -6,9 +6,10 @@ import Reset from "./firebase/Reset";
 import Dashboard from "./firebase/Dashboard";
 import Homepage from './components/pages/Homepage/Homepage';
 import About from './components/pages/About/About';
-import Profile from './components/pages/Profile/Profile';
 import WorkoutEntry from './components/pages/WorkoutEntry/WorkoutEntry';
+import Profile from './components/pages/Profile/Profile';
 import MainNavigation from './components/MainNavigation';
+import Streak from './components/pages/Streak/Streak'
 
 
 function App() {
@@ -21,7 +22,11 @@ function App() {
         <ul>
 
         <MainNavigation />
-
+        <Switch>
+        <Route path="/streak" exact>
+          <Streak />
+        </Route>
+        </Switch>
         <Switch>
         <Route path='/' exact>
           <Homepage />
@@ -29,11 +34,11 @@ function App() {
         <Route path='/about' exact>
           <About />
         </Route>
-        <Route path='/profile' exact>
-          <Profile/>
-        <Route path='workout-entry' exact>
+        <Route path='/workoutentry' exact>
           <WorkoutEntry />
         </Route>
+        <Route path='/profile' exact>
+          <Profile/>
         </Route>
         </Switch>
 
