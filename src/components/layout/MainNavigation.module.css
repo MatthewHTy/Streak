@@ -1,10 +1,12 @@
 .header {
-    width: 10%;
+    width: 100%;
     height: 3rem;
     display: flex;
     align-items: auto;
     justify-content: space-between;
-    padding: 0 2.0%;
+    background-color: black;
+    padding: 0 5.0%;
+    opacity: 75%;
   }
   
   .logo {
@@ -38,7 +40,6 @@
 
 
  body {
-  
-    background: linear-gradient(180deg, #000000 0%, rgba(9, 240, 255, 0.75) 51.04%, #000000 100%)
+    background: linear-gradient(180deg, #000000 0%, rgba(9, 240, 255, 0.75) 51.04%, #000000 100%);
   }
   /* background: linear-gradient(180deg, #000000 0%, rgba(9, 240, 255, 0.75) 51.04%, #000000 100%); */
