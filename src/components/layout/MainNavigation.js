@@ -5,7 +5,7 @@ import classes from './MainNavigation.module.css';
 
 function MainNavigation() {
     return (<header className={classes.header}> 
-        <div><Link to ="/streak">Streak</Link></div>
+        <div><Link to ="/streak">Streak-</Link></div>
        
         <nav>
             <ul>
