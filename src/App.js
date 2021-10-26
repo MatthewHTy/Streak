@@ -5,7 +5,7 @@ import Register from "./firebase/Register";
 import Reset from "./firebase/Reset";
 import Dashboard from "./firebase/Dashboard";
 import Homepage from './components/pages/Homepage/Homepage';
-import About from './components/pages/About/About';
+import Plans from './components/pages/Plans/Plans';
 import WorkoutEntry from './components/pages/WorkoutEntry/WorkoutEntry';
 import Profile from './components/pages/Profile/Profile';
 import MainNavigation from './components/layout/MainNavigation';
@@ -14,9 +14,7 @@ import Streak from './components/pages/Streak/Streak'
 
 function App() {
   return (
-    // localhost:3000
-    // my-page.com/
-//  NavBar
+
         <div className="navbar">
           <div className="firebase">
       
@@ -30,8 +28,8 @@ function App() {
         <Route path='/' exact>
           <Homepage />
         </Route>
-        <Route path='/about' exact>
-          <About />
+        <Route path='/plans' exact>
+          <Plans />
         </Route>
         <Route path='/workout-entry' exact>
           <WorkoutEntry />

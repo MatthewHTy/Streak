@@ -1,12 +1,12 @@
-function About () {
+function Plans () {
     return (
         <h1>
             <div>
 
-            About
+            Plans
               
             </div>
         </h1>
     );
 }
-export default About
+export default Plans
