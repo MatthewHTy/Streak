@@ -1,12 +1,11 @@
 .header {
     width: auto;
-    height: 2rem;
+    height: 3rem;
     display: flex;
     align-items: auto;
     justify-content: space-between;
-    background-color: black;
-    padding: 0 2.0%;
-    opacity: 100%;
+    padding: 1.9% 2.0%;
+    bottom: 50%
   }
   
   .logo {

@@ -17,8 +17,8 @@ function App() {
     // localhost:3000
     // my-page.com/
 //  NavBar
-        <div className="firebase">
         <div className="navbar">
+          <div className="firebase">
       
         <MainNavigation />
         <Switch>

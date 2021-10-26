@@ -1,16 +1,24 @@
 .streak-text{
-    position: retlative;
+    position: relative;
 }
 
 .text-on-image {
     position: absolute;
     right: 10%;
     left:35%;
-    bottom: 50%;
+    bottom: 42%;
     color: white;
 }
 
 .streak-photo {
     height: auto;
     max-width: 100%;
+}
+
+.get-started {
+    position: absolute;
+    right: 10%;
+    left:22%;
+    bottom: -10%;
+    color: white;
 }
