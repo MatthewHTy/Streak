@@ -19,8 +19,7 @@ function App() {
 //  NavBar
         <div className="firebase">
         <div className="navbar">
-        <ul>
-
+      
         <MainNavigation />
         <Switch>
         <Route path="/streak" exact>
@@ -42,7 +41,6 @@ function App() {
         </Route>
         </Switch>
 
-        </ul>
       </div>
 
       <Router> 

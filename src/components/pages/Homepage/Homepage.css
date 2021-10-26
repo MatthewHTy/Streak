@@ -11,6 +11,6 @@
 }
 
 .streak-photo {
-    height: 30rem;
-    width: 88rem;
+    height: auto;
+    max-width: 100%;
 }
