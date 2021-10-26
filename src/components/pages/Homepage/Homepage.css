@@ -1,0 +1,12 @@
+.streak-text{
+    position: retlative;
+}
+
+.text-on-image {
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    bottom: 50%;
+    color: white;
+}
+

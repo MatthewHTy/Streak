@@ -1,14 +1,21 @@
 import React from 'react'
+import './Homepage.css'
 
 
+    const Homepage = () => {
 
-function Homepage() {
-    return (
-        <h1>
-            <div className="streak-image">
+        return (
+            <h1>
+            <div className="streak-text">
+                <div className="streak-image">
                 <img src="./images/streak.png" alt=""/>
+                </div>
+            <div class="text-on-image">
+                <h3> Welcome to Streak </h3>
+
+            </div>
             </div>
         </h1>
     );
-}
+    }   
 export default Homepage;
