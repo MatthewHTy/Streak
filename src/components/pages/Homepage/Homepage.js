@@ -8,7 +8,7 @@ import './Homepage.css'
             <h1>
             <div className="streak-text">
                 <div className="streak-image">
-                <img src="./images/streak.png" alt="Streak"/>
+                <img className="streak-photo" src="./images/streak.png" alt="Streak"/>
                 </div>
             <div class="text-on-image">
                 <h3> Welcome to Streak </h3>
