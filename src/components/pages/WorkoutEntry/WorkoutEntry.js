@@ -22,7 +22,7 @@ class WorkoutEntry extends React.Component {
         return (
         <div>
             {this.state.loading || !this.state.exercise ? (
-                <div>loading...</div> 
+                <div>Retreiving Workout Plans...</div> 
                 ) : (    
                 <div>
                     <div>{this.state.exercise.name}</div>
