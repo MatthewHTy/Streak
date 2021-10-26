@@ -1,10 +1,9 @@
 .header {
-    width: auto;
-    height: 5rem;
+    width: 10%;
+    height: 3rem;
     display: flex;
-    align-items: center;
+    align-items: auto;
     justify-content: space-between;
-    background: black;
     padding: 0 2.0%;
   }
   
@@ -37,16 +36,10 @@
   .header a.active {
     background: rgba(9, 240, 255, 0.75);
   }
-  
-  .badge {
-    background-color: black;
-    color: white;
-    border-radius: 12px;
-    padding: 0 1rem;
-    margin-left: 0.5rem;
-  }
+
 
  body {
+  
     background: linear-gradient(180deg, #000000 0%, rgba(9, 240, 255, 0.75) 51.04%, #000000 100%)
   }
   /* background: linear-gradient(180deg, #000000 0%, rgba(9, 240, 255, 0.75) 51.04%, #000000 100%); */

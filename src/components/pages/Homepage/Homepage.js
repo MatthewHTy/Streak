@@ -1,8 +1,12 @@
+import React from 'react'
+
+
+
 function Homepage() {
     return (
         <h1>
             <div>
-                Home
+                <img src="./images/streak.png" alt=""/>
             </div>
         </h1>
     );
