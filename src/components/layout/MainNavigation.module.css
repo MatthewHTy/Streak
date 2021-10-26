@@ -33,7 +33,7 @@
   
   .header a:hover,
   .header a:active {
-    background: rgba(9, 240, 255, 0.75);
+    color: rgba(9, 240, 255, 0.75);
   } 
 
 
