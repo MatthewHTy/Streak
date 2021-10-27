@@ -38,10 +38,23 @@
     position: absolute;
     bottom: 50%;
     right: 50%;
-    left: 35%;
-    opacity: 75%;
+    left: 34%;
+    opacity: 10%;
     text-align: center;
 }
 .text {
     margin: auto;
+}
+
+.welcome-to-streak {
+    display: flex;
+    width: 28rem;
+    height: 4rem;
+    background: black;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    left: 34%;
+    opacity: 75%;
+    text-align: center;
 }
