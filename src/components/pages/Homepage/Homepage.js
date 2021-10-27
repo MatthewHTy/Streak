@@ -17,7 +17,7 @@ import './Homepage.css'
             <div class="welcome-to-streak">
                 <h3 class="text"> Welcome to Streak </h3>
 
-            <div class="about-streal">
+            <div class="about-streak">
                 
             </div>
             </div>
