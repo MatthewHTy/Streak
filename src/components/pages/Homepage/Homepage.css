@@ -39,7 +39,7 @@
     bottom: 50%;
     right: 50%;
     left: 34%;
-    opacity: 10%;
+    opacity: 50%;
     text-align: center;
 }
 .text {
@@ -50,11 +50,65 @@
     display: flex;
     width: 28rem;
     height: 4rem;
-    background: black;
     position: absolute;
     bottom: 50%;
     right: 50%;
     left: 34%;
-    opacity: 75%;
+    opacity: 100%;
     text-align: center;
+}
+
+.rectangle-2 {
+    display: flex;
+    width: 20rem;
+    height: 4.2rem;
+    background: black;
+    position: absolute;
+    bottom: -800%;
+    right: 50%;
+    left: -70%;
+    opacity: 70%;
+    text-align: center;
+}
+
+.what-is-streak {
+    display: flex;
+    width: 20rem;
+    height: 4rem;
+    position: absolute;
+    bottom: -800%;
+    right: 50%;
+    left: -70%;
+    opacity: 100%;
+    text-align: center;
+}
+
+.rectangle-3{
+    display: flex;
+    width: 40rem;
+    height: 20rem;
+    background: black;
+    position: absolute;
+    bottom: -1000%;
+    right: 50%;
+    left: 50%;
+    opacity: 70%;
+    text-align: center;
+
+}
+
+.what-is-streak-p {
+    display: flex;
+    width: 20rem;
+    height: 4rem;
+    position: absolute;
+    bottom: -600%;
+    right: 50%;
+    left: 85%;
+    opacity: 100%;
+    text-align: center;
+}
+
+.firebase {
+    
 }
