@@ -1,4 +1,5 @@
 import React from 'react';
+import './Plans.css';
 
 class Plans extends React.Component {
 
@@ -10,20 +11,24 @@ class Plans extends React.Component {
         const url ="https://wger.de/api/v2/exercise/";
         const response = await fetch(url);
         const data = await response.json();
-        this.setState({exercise: data.results[0], loading: false})
+        this.setState({exercise: data.results[7], loading: false})
     }
 
     render() {
         return (
         <div>
             {this.state.loading || !this.state.exercise ? (
-                <div>Retreiving Workout Plans...</div> 
+                <div className="workout-plan-1">
+                    <h1>Retreiving Workout Plans...</h1></div> 
                 ) : (    
                 <div>
-                    <div>{this.state.exercise.name}</div>
+                    <div><h1>{this.state.exercise.name}</h1></div>
                 </div>
         )}
         </div>
+        
+            
+
         );
     }    
 }
