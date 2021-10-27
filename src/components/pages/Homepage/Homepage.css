@@ -64,9 +64,9 @@
     height: 4.2rem;
     background: black;
     position: absolute;
-    bottom: -790%;
+    bottom: -605%;
     right: 50%;
-    left: -70%;
+    left: -57%;
     opacity: 70%;
     text-align: center;
 }
@@ -76,22 +76,22 @@
     width: 20rem;
     height: 4rem;
     position: absolute;
-    bottom: -790%;
+    bottom: -605%;
     right: 50%;
-    left: -70%;
+    left: -57%;
     opacity: 100%;
     text-align: center;
 }
 
 .rectangle-3{
     display: flex;
-    width: 40rem;
+    width: 35rem;
     height: 20rem;
     background: black;
     position: absolute;
     bottom: -1000%;
     right: 50%;
-    left: 50%;
+    left: 60%;
     opacity: 70%;
     text-align: center;
 
@@ -109,6 +109,39 @@
     text-align: center;
 }
 
+.what-is-streak h3{
+    font-size: 1.6rem;
+}
+
+.rectangle-how {
+    display: flex;
+    width: 35rem;
+    height: 15rem;
+    background: black;
+    position: absolute;
+    bottom: -1000%;
+    right: 50%;
+    left: -82%;
+    opacity: 70%;
+    text-align: center;
+
+}
+
+.what-is-streak-how {
+    display: flex;
+    width: 20rem;
+    height: 4rem;
+    position: absolute;
+    bottom: -740%;
+    right: 50%;
+    left: -57%;
+    opacity: 100%;
+    text-align: center;
+}
+
+.what-is-streak-how li {
+    font-size: 1.5rem;
+}
 .firebase {
-    margin-bottom: 15%
+    margin-bottom: 20%
 }

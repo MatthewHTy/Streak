@@ -1,3 +1,4 @@
+import { render } from '@testing-library/react';
 import React from 'react'
 import './Homepage.css'
 
@@ -21,6 +22,18 @@ import './Homepage.css'
             </div>
             <div class="what-is-streak">
                 <h3 class="text">How It Works</h3>
+            </div>
+            <div class="rectangle-how">
+                <h3 class="text"> </h3>
+            </div>
+            <div class="what-is-streak-how">
+                <p class="text"><ul>
+                    <li>Register/Log-In</li>
+                    <li>Retreive Workout Plan</li>
+                    <li>Add Workout Entries</li>
+                    <li>Start your tracker!</li>
+                </ul>
+                </p>
             </div>
             <div class="rectangle-3">
                 <h3 class="text"> </h3>
