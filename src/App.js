@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Login from "./firebase/Login";
-import Register from "./firebase/Register";
-import Reset from "./firebase/Reset";
-import Dashboard from "./firebase/Dashboard";
+import Login from "./components/firebase/Login";
+import Register from "./components/firebase/Register";
+import Reset from "./components/firebase/Reset";
+import Dashboard from "./components/firebase/Dashboard";
 import Homepage from './components/pages/Homepage/Homepage';
 import Plans from './components/pages/Plans/Plans';
 import WorkoutEntry from './components/pages/WorkoutEntry/WorkoutEntry';
