@@ -8,15 +8,11 @@ import './Homepage.css'
             <h1>
     
             <div className="streak-text">
-                <div className="streak-image">
+            <div className="streak-image">
                 <img className="streak-photo" src="./images/streak.png" alt="Streak"/>
-                </div>
-            <div class="text-on-image">
-                <h3> Welcome to Streak </h3>
-            <div class="get-started">
-                <h2>Sign Up</h2>
             </div>
-
+            <div class="rectangle">
+                <h3 class="text"> Welcome to Streak </h3>
             </div>
             </div>
         </h1>

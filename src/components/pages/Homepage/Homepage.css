@@ -2,27 +2,46 @@
     position: relative;
 }
 
-.text-on-image {
+/* .text-on-image {
     position: absolute;
     right: 10%;
     left: 35%;
     bottom: 42%;
     color: white;
-}
+    background-color: black;
+    opacity: 50%;
+} */
 
 .streak-photo {
     height: auto;
     max-width: 100%;
 }
 
-.get-started {
+/* .get-started {
     position: absolute;
     right: 10%;
     left:22%;
     bottom: -10%;
     color: white;
-}
+} */
+
 
 /* .firebase {
     position: absolute;
 } */
+
+.rectangle {
+    display: flex;
+    width: 28rem;
+    height: 4rem;
+    background: black;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    left: 35%;
+    opacity: 75%;
+    text-align: center;
+}
+.text {
+    margin: auto;
+}
