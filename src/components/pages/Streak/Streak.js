@@ -7,7 +7,7 @@ function Streak () {
     const [count, setCount] = useState(0);
   
     return (
-      <div className="streak">
+      <div className="streak-counter-btn">
         {
           // if else statement to determine color of the counter
         }
