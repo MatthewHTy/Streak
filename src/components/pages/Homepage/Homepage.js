@@ -28,7 +28,7 @@ import './Homepage.css'
             <div class="what-is-streak-how">
                 <p class="text"><ul>
                     <li>Register/Log-In</li>
-                    <li>Retreive Workout Plan</li>
+                    <li>Retrieve Workout Plan</li>
                     <li>Add Workout Entries</li>
                     <li>Start your tracker!</li>
                 </ul>
