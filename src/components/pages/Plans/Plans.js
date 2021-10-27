@@ -11,7 +11,7 @@ class Plans extends React.Component {
         const url ="https://wger.de/api/v2/exercise/";
         const response = await fetch(url);
         const data = await response.json();
-        this.setState({exercise: data.results[7], loading: false})
+        this.setState({exercise: data.results[0], loading: false})
     }
 
     render() {
