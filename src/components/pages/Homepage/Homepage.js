@@ -6,7 +6,6 @@ import './Homepage.css'
 
         return (
             <h1>
-    
             <div className="streak-text">
             <div className="streak-image">
                 <img className="streak-photo" src="./images/streak.png" alt="Streak"/>
