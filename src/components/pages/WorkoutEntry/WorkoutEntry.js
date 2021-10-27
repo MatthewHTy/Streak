@@ -1,12 +1,11 @@
 import React from 'react';
 
-
-
-
-
-
-class WorkoutEntry extends React.Component {
-
+function WorkoutEntry () {
+    return (
+        <div>
+            <h1>Workout Entries</h1>
+        </div>
+    )
 }
     export default WorkoutEntry;
     
