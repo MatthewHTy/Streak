@@ -27,7 +27,7 @@ import './Homepage.css'
                 <h3 class="text"> </h3>
             </div>
             <div class="what-is-streak-p">
-                <h2 class="text">Streak</h2>
+                <h2 class="text">Streak's Goal</h2>
             </div>
             </div>
             </div>
