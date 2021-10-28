@@ -16,7 +16,7 @@ function App() {
   return (
 
         <div className="navbar">
-          <div className="firebase">
+        <div className="firebase">
       
         <MainNavigation />
         <Switch>

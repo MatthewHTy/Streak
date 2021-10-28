@@ -5,6 +5,7 @@ import './Homepage.css'
     const Homepage = () => {
 
         return (
+
             <h1>
             <div className="streak-text">
             <div className="streak-image">
@@ -39,6 +40,9 @@ import './Homepage.css'
             </div>
             <div class="what-is-streak-p">
                 <h2 class="text">Streak's Goal</h2>
+            </div>
+            <div class="streak-goal">
+                <p>Lorem Ipsum</p>
             </div>
             </div>
             </div>

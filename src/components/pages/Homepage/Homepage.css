@@ -83,7 +83,7 @@
     text-align: center;
 }
 
-.rectangle-3{
+.rectangle-3 {
     display: flex;
     width: 35rem;
     height: 20rem;
@@ -94,7 +94,6 @@
     left: 60%;
     opacity: 70%;
     text-align: center;
-
 }
 
 .what-is-streak-p {
@@ -144,4 +143,17 @@
 }
 .firebase {
     margin-bottom: 20%
+}
+
+.streak-goal p {
+    display: flex;
+    width: 20rem;
+    height: 4rem;
+    position: absolute;
+    bottom: -710%;
+    right: 50%;
+    left: 70%;
+    opacity: 100%;
+    text-align: center;
+    font-size: 1.4rem;
 }
