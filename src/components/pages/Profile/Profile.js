@@ -1,4 +1,4 @@
-import Dashboard from "../../../firebase/Dashboard";
+// import Dashboard from "../../../firebase/Dashboard"; 
 
 function Profile() {
     return (
