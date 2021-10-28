@@ -103,6 +103,19 @@ const gituser = async (user) => {
     }
 }
 
+const setStreak = async (user, num) => {
+  try {
+    await db
+    .collection('users')
+    .doc(user.uid)
+    .update({
+      streak: user.streak + num
+    })
+  } catch (error) {
+    console.error(error)
+  }
+}
+
 export {
   auth,
   db,
@@ -112,4 +125,5 @@ export {
   sendPasswordResetEmail,
   logout,
   gituser,
+  setStreak
 };
