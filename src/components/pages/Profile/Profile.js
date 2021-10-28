@@ -1,5 +1,12 @@
+import Dashboard from "../../../firebase/Dashboard";
+
 function Profile() {
-    return <h1>Profile</h1>
+    return (
+    <div>
+        <h1>Profile</h1>
+        <Dashboard />
+    </div>
+    )
 };
 
 export default Profile;

@@ -11,6 +11,7 @@ class Plans extends React.Component {
         const url ="https://wger.de/api/v2/exercise/";
         const response = await fetch(url);
         const data = await response.json();
+        console.log(data)
         this.setState({exercise: data.results[0], loading: false})
     }
 
@@ -23,6 +24,7 @@ class Plans extends React.Component {
                 ) : (    
                 <div>
                     <div><h1>{this.state.exercise.name}</h1></div>
+                    <div><h1>{this.state.exercise.description}</h1></div>
                 </div>
         )}
         </div>

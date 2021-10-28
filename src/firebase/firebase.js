@@ -26,11 +26,14 @@ const signInWithGoogle = async () => {
       .where("uid", "==", user.uid)
       .get();
     if (query.docs.length === 0) {
-      await db.collection("users").add({
+      await db.collection("users").doc(user.uid).set({
         uid: user.uid,
         name: user.displayName,
         authProvider: "google",
         email: user.email,
+        streak: 0,
+        entries: [],
+        highscore: 0
       });
     }
   } catch (err) {
@@ -50,11 +53,14 @@ const registerWithEmailAndPassword = async (name, email, password) => {
   try {
     const res = await auth.createUserWithEmailAndPassword(email, password);
     const user = res.user;
-    await db.collection("users").add({
+    await db.collection("users").doc(user.uid).set({
       uid: user.uid,
       name,
       authProvider: "local",
       email,
+      streak: 0,
+      entries: [],
+      highscore: 0
     });
   } catch (err) {
     console.error(err);
@@ -73,6 +79,30 @@ const sendPasswordResetEmail = async (email) => {
 const logout = () => {
   auth.signOut();
 };
+
+const gituser = async (user) => {
+    try {
+      const query = await db
+      .collection('users')
+      .where('uid', '==', user?.uid)
+      .get();
+      let newUser;
+      query.forEach(async (doc) => {
+        newUser = {
+          name: doc.data().name,
+          email: doc.data().email,
+          uid: doc.data().uid,
+          streak: doc.data().streak,
+          entries: doc.data().entries,
+          highscore: doc.data().highscore
+        }
+      })
+      return newUser
+    } catch (error) {
+      console.error(error)
+    }
+}
+
 export {
   auth,
   db,
@@ -81,4 +111,5 @@ export {
   registerWithEmailAndPassword,
   sendPasswordResetEmail,
   logout,
+  gituser,
 };
