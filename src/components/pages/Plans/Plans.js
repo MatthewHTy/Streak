@@ -33,7 +33,7 @@ function Plans() {
         <div className="plans-title">
         <h3 className="text"> </h3>
         <div className="plans-title-text">
-            <h1>Workout Plans</h1>
+            <h1>Workout Plans for {userdata.name}</h1>
         </div>
         </div>
     )
