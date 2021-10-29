@@ -1,0 +1,26 @@
+.workout-entries-title {
+    display: flex;
+    width: 100%;
+    height: 8rem;
+    background: black;
+    position: absolute;
+    bottom: 72.5%;
+    right: 50%;
+    left: 0%;
+    opacity: 70%;
+    text-align: center;
+}
+
+.workout-entries-title-text h1 {
+        display: flex;
+        width: 40rem;
+        height: 4rem;
+        position: absolute;
+        bottom: 0%;
+        right: 50%;
+        left: 34%;
+        opacity: 100%;
+        text-align: center;
+        max-width: 100%;
+        min-width: 100%;
+}

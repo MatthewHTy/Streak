@@ -38,9 +38,11 @@
   } 
 
 
- body {
+ /* body {
     background: linear-gradient(180deg, #000000 0%, rgba(9, 240, 255, 0.75) 20.04%, #000000 100%);
-  }
+    max-width: 100%;
+    min-width: 100%;
+  } */
   /* background: linear-gradient(180deg, #000000 0%, rgba(9, 240, 255, 0.75) 51.04%, #000000 100%); */
 
   
