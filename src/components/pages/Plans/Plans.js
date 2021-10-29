@@ -12,7 +12,7 @@ class Plans extends React.Component {
         const response = await fetch(url);
         const data = await response.json();
         console.log(data)
-        this.setState({exercise: data.results[0], loading: false})
+        this.setState({exercise: data.results.exercise[0], loading: false})
     }
 
     render() {
@@ -22,7 +22,7 @@ class Plans extends React.Component {
         <div>
             {this.state.loading || !this.state.exercise ? (
                 <div className="workout-plan-1">
-                    <h1>Retreiving Workout Plans...</h1></div> 
+                    <h1>Retrieving Workout Plans...</h1></div> 
                 ) : (    
                     <div>
                     <div className="exercise-1"><h1>{this.state.exercise.name}</h1></div>
@@ -36,6 +36,4 @@ class Plans extends React.Component {
     }    
 }
 
-
-
-export default Plans
+export default Plans;
