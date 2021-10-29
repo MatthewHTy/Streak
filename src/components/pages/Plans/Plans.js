@@ -17,13 +17,14 @@ class Plans extends React.Component {
 
     render() {
         return (
-            
+
+        
         <div>
             {this.state.loading || !this.state.exercise ? (
                 <div className="workout-plan-1">
                     <h1>Retreiving Workout Plans...</h1></div> 
                 ) : (    
-                <div>
+                    <div>
                     <div className="exercise-1"><h1>{this.state.exercise.name}</h1></div>
                 </div>
         )}
