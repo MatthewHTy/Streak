@@ -37,7 +37,10 @@ function Streak () {
         {
           // if else statement to determine color of the counter
         }
-        <h1>Streak Counter</h1>
+        <div className="streak-counter-display">
+                <h3 className="text"> </h3>
+            </div>
+        <h1 className="streak-title">Streak Counter</h1>
         <h1 className={userdata.streak > 0 ? "positive" : userdata.streak < 0 ? "negative" : null}>
           {userdata.streak}
         </h1>

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useHistory } from "react-router";
 import { auth, gituser } from "../../../firebase/firebase";
+import './Profile.css'
 
 function Profile() {
 
@@ -31,10 +32,12 @@ function Profile() {
     }, [user, loading]);
 
     return (
-    <div>
-        <h1>Profile</h1>
-        {/* <Dashboard /> */}
-    </div>
+      <div className="profile-title">
+      <h3 className="text"> </h3>
+      <div className="profile-title-text">
+          <h1>{userdata.name}</h1>
+      </div>
+      </div>
     )
 };
 
