@@ -24,3 +24,58 @@
         max-width: 100%;
         min-width: 100%;
 }
+
+.streak-title {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    background: black;
+    position: absolute;
+    bottom: -290.5%;
+    right: 50%;
+    left: 0%;
+    opacity: 70%;
+    text-align: center;
+}
+
+.streak-title-text h1 {
+        display: flex;
+        width: 40rem;
+        height: 4rem;
+        position: absolute;
+        bottom: -130%;
+        right: 50%;
+        left: 38%;
+        opacity: 100%;
+        text-align: center;
+        max-width: 100%;
+        min-width: 100%;
+}
+
+.streak-title-text-2 h1 {
+    display: flex;
+    width: 40rem;
+    height: 4rem;
+    position: absolute;
+    bottom: -210%;
+    right: 50%;
+    left: 33%;
+    opacity: 100%;
+    text-align: center;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.streak-title-text-3 h1 {
+    display: flex;
+    width: 40rem;
+    height: 4rem;
+    position: absolute;
+    bottom: -300%;
+    right: 50%;
+    left: 33%;
+    opacity: 100%;
+    text-align: center;
+    max-width: 100%;
+    min-width: 100%;
+}

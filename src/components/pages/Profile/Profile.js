@@ -36,6 +36,20 @@ function Profile() {
       <h3 className="text"> </h3>
       <div className="profile-title-text">
           <h1>{userdata.name}</h1>
+
+<div className="streak-title">
+<h3 className="text"> </h3>
+      </div>
+<div className="streak-title-text">
+    <h1>Current Streak: {userdata.streak}</h1>
+      </div>
+      <div className="streak-title-text-2">
+    <h1>Previous High Score: {}</h1>
+      </div>
+      <div className="streak-title-text-3">
+    <h1>Exercise for Today: {}</h1>
+      </div>
+
       </div>
       </div>
     )
