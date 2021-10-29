@@ -29,6 +29,7 @@ function Plans() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [user, loading]);
 
+    
     return (
         <div className="plans-title">
         <h3 className="text"> </h3>
