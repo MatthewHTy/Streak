@@ -24,3 +24,8 @@
         max-width: 100%;
         min-width: 100%;
 }
+
+#workout_list {
+    display: flex;
+    flex-direction: column;
+}
