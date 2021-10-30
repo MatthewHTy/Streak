@@ -9,7 +9,17 @@
     width: 40rem;
     height: 4rem;
     position: absolute;
-    bottom: 43.5%;
+    bottom: 60.5%;
+    right: 50%;
+    left: 37%;
+    opacity: 100%;
+    text-align: center;
+}
+
+.exercise-form {
+  display: flex;
+    position: absolute;
+    bottom: 60.5%;
     right: 50%;
     left: 37%;
     opacity: 100%;
