@@ -57,12 +57,12 @@
   border: 2px solid black;
   outline: none;
   width: 320px;
-  background: transparent;
-  color: #fff;
+  background: white;
+  color: black;
 }
 
 .todo-input::placeholder {
-  color: #e2e2e2;
+  color: black;
 }
 
 .todo-button {
@@ -77,15 +77,11 @@
 }
 
 .todo-input.edit {
-  border: 2px solid #149fff;
+  border: 2px solid black;
 }
 
 .todo-button.edit {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
+  background: black;
   padding: 16px 22px;
 }
 
