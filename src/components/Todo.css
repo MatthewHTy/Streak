@@ -18,7 +18,7 @@
     position: absolute;
     bottom: 60.5%;
     right: 50%;
-    left: 43%;
+    left: 40.5%;
     opacity: 100%;
     text-align: center;
 }
@@ -26,9 +26,9 @@
 .edit-form-update {
   display: flex;
     position: absolute;
-    bottom: 61.5%;
+    bottom: 50.5%;
     right: 50%;
-    left: 60%;
+    left: 40.5%;
     opacity: 100%;
     text-align: center;
 }
@@ -48,7 +48,7 @@
 }
 
 .todo-form {
-  margin-bottom: 20rem;
+  margin-bottom: 17.5rem;
 }
 
 .todo-input {
@@ -56,12 +56,12 @@
   border-radius: 4px 0 0 4px;
   border: 2px solid black;
   outline: none;
-  width: 320px;
+  width: 200px;
   background: white;
   color: black;
 }
 
-.todo-input::placeholder {
+.todo-input:placeholder {
   color: black;
 }
 
@@ -109,27 +109,7 @@
 }
 
 .todo-row:nth-child(4n + 1) {
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );
-}
-
-.todo-row:nth-child(4n + 2) {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 12, 241, 1) 0%,
-    rgba(250, 0, 135, 1) 100%
-  );
-}
-
-.todo-row:nth-child(4n + 3) {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
+  background: linear-gradient(80deg, #000000 35%, rgba(9, 240, 255, 0.75) 90%, #000000 50%);
 }
 
 .icons {
