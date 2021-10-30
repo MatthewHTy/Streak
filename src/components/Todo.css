@@ -97,11 +97,7 @@
   align-items: center;
   margin: 4px auto;
   color: #fff;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 118, 20, 1) 0%,
-    rgba(255, 84, 17, 1) 100%
-  );
+  background: linear-gradient(80deg, #000000 35%, rgba(9, 240, 255, 0.75) 160%, #000000 92%);
   padding: 16px;
   border-radius: 5px;
   width: 50%;
