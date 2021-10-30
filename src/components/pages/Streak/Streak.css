@@ -8,23 +8,15 @@
     height: 100vh;
   }
 
-
+.number-display {
+  display: flex;
+}
   
   .button__wrapper {
     display: flex;
     gap: 3rem;
 }   
   
-  /* @keyframes pulse {
-    0%,
-    100% {
-      transform: scale(1, 2 ,3);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-} */
-
 .streak-counter-display {
   display: flex;
     width: 100%;
