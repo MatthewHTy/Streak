@@ -1,2 +1,17 @@
 
-  
+/* added exercises list */
+.todo-form {
+
+}
+
+.workout-for-today {
+  display: flex;
+    width: 40rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 43.5%;
+    right: 50%;
+    left: 37%;
+    opacity: 100%;
+    text-align: center;
+}
