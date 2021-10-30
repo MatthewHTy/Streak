@@ -102,10 +102,9 @@
     rgba(255, 118, 20, 1) 0%,
     rgba(255, 84, 17, 1) 100%
   );
-
   padding: 16px;
   border-radius: 5px;
-  width: 90%;
+  width: 50%;
 }
 
 .todo-row:nth-child(4n + 1) {
