@@ -4,6 +4,8 @@ import { useHistory } from 'react-router';
 import { auth, gituser } from '../../../firebase/firebase';
 import './WorkoutEntry.css'
 
+
+
 function WorkoutEntry () {
 
     const [user, loading] = useAuthState(auth);
@@ -29,6 +31,8 @@ function WorkoutEntry () {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [user, loading]);
 
+    
+
     return (
         <div className="workout-entries-title">
         <h3 className="text"> </h3>
@@ -36,8 +40,12 @@ function WorkoutEntry () {
             <h1>{userdata.name}'s Workout</h1>
         </div>
         </div>
+
     )
-}
+
+    
+};
+
     export default WorkoutEntry;
     
     

@@ -11,6 +11,7 @@ import Profile from './components/pages/Profile/Profile';
 import MainNavigation from './components/layout/MainNavigation';
 import Streak from './components/pages/Streak/Streak';
 import Plan2 from './components/pages/Plans/Plan2';
+import TodoList from './components/TodoList'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         </Route>
         <Route path='/workout-entry' exact>
           <WorkoutEntry />
+          <TodoList />
         </Route>
         <Route path='/profile' exact>
           <Profile/>
