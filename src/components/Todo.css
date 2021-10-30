@@ -109,7 +109,7 @@
 }
 
 .todo-row:nth-child(4n + 1) {
-  background: linear-gradient(80deg, #000000 35%, rgba(9, 240, 255, 0.75) 90%, #000000 50%);
+  background: linear-gradient(80deg, #000000 35%, rgba(9, 240, 255, 0.75) 90%, #000000 92%);
 }
 
 .icons {
