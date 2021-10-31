@@ -13,6 +13,7 @@ import Streak from './components/pages/Streak/Streak';
 import Plan2 from './components/pages/Plans/Plan2';
 import TodoList from './components/TodoList'
 import Plan3 from './components/pages/Plans/Plan3';
+import Plan4 from './components/pages/Plans/Plan4';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Plans />
           <Plan2 />
           <Plan3 />
+          <Plan4 />
         </Route>
         <Route path='/workout-entry' exact>
           <WorkoutEntry />

@@ -1,0 +1,49 @@
+.upper-rectangle {
+    display: flex;
+    width: 35rem;
+    height: 30rem;
+    background: black;
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    left: 55%;
+    opacity: 70%;
+    text-align: center;
+}
+
+.upper-strength {
+    display: flex;
+    width: 20rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 60%;
+    right: 50%;
+    left: 63%;
+    opacity: 100%;
+    text-align: center;
+}
+
+.lower-rectangle {
+    display: flex;
+    width: 35rem;
+    height: 30rem;
+    background: black;
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    left: 4%;
+    opacity: 70%;
+    text-align: center;
+}
+
+.lower-strength {
+    display: flex;
+    width: 20rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 60%;
+    right: 50%;
+    left: 13%;
+    opacity: 100%;
+    text-align: center;
+}
