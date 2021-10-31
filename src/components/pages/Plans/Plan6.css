@@ -1,11 +1,11 @@
-.lower-strength-list {
+.upper-strength-list {
     display: flex;
     width: 40rem;
     height: 4rem;
     position: absolute;
     bottom: 50%;
     right: 50%;
-    left: 15%;
+    left: 65%;
     opacity: 100%;
     text-align: center;
     max-width: 100%;

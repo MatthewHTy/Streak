@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import './Plan6.css'
 
 function Plan6() {
     const [posts, setPosts] = useState([])
@@ -18,7 +19,7 @@ function Plan6() {
     
     return (
         <div>
-                    <div className="upper-strength">
+                    <div className="upper-strength-list">
             <ul>
                 {posts.map(post => (
                     <li key={post.id}>{post.name1}</li>
