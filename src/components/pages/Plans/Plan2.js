@@ -3,7 +3,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth, gituser } from "../../../firebase/firebase";
 import { useEffect, useState } from "react";
 
-function Plans() {
+function Plans2() {
 
     const [user, loading] = useAuthState(auth);
     const history = useHistory();
@@ -39,4 +39,4 @@ function Plans() {
     )
 }
 
-export default Plans
+export default Plans2
