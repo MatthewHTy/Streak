@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-function Plan5() {
+function Plan6() {
     const [posts, setPosts] = useState([])
     
     useEffect(() => {
         axios
-        .get('https://my-workout-api.herokuapp.com/lower')
+        .get('https://my-workout-api.herokuapp.com/upper')
         .then(res => {
             console.log(res)
             setPosts(res.data)
@@ -18,7 +18,7 @@ function Plan5() {
     
     return (
         <div>
-                    <div className="lower-strength">
+                    <div className="upper-strength">
             <ul>
                 {posts.map(post => (
                     <li key={post.id}>{post.name1}</li>
@@ -30,4 +30,4 @@ function Plan5() {
 
 }
 
-export default Plan5
+export default Plan6
