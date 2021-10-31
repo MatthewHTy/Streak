@@ -14,6 +14,7 @@ import Plan2 from './components/pages/Plans/Plan2';
 import TodoList from './components/TodoList'
 import Plan3 from './components/pages/Plans/Plan3';
 import Plan4 from './components/pages/Plans/Plan4';
+import Plan5 from './components/pages/Plans/Plan5';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <Plan2 />
           <Plan3 />
           <Plan4 />
+          <Plan5 />
         </Route>
         <Route path='/workout-entry' exact>
           <WorkoutEntry />
