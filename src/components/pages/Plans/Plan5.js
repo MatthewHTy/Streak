@@ -21,15 +21,14 @@ export default class Plans extends React.Component {
             return <div className="retrieving-workout-plan">Retrieving Workout Plan...</div>;
         }
         
-        if (!this.state.results) {
+        if (!this.state.exercise) {
             return <div>No Workouts</div>;
         }
         
         return (
             <div className="workout-list">
-         <div id='workout_list'>{this.state.results.map(result => {
-             return <p>{result.results}</p>} )}</div>
-       </div>
+            <div>{this.state.exercise.name}</div>
+          </div>
       );
     }
 
