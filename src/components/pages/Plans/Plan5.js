@@ -17,11 +17,20 @@ function Plan5() {
     }, [])
     return (
         <div>
+            <div className="lower-strength-text">
             <ul>
                 {posts.map(post => (
                     <li key={post.id}>{post.name}</li>
-                ))}
+                    ))}
             </ul>
+                    </div>
+                    <div className="lower-strength">
+            <ul>
+                {posts.map(post => (
+                    <li key={post.id}>{post.name}</li>
+                    ))}
+            </ul>
+                    </div>
         </div>
     )
 }
