@@ -10,16 +10,16 @@ export default class Plans extends React.Component {
     };
     
     async componentDidMount() {
-        const url = "https://wger.de/api/v2/exercise/";
+        const url = "https://wger.de/api/v2/exercisecategory/";
         const response = await fetch(url);
         const data = await response.json();
         console.log(data)
-        this.setState({ exercise: data.results, loading: false });
+        this.setState({ exercise: data.results[1], loading: false });
     }
     
     render() {
         if (this.state.loading) {
-            return <div>Retrieving Workout Plan..</div>;
+            return <div className="retrieving-workout-plan">Retrieving Workout Plan...</div>;
         }
         
         if (!this.state.exercise) {
@@ -27,9 +27,8 @@ export default class Plans extends React.Component {
         }
         
         return (
-            <div>
-          <div id='workout_list'>{this.state.exercise.map(result => {
-              return <p>{result.name}</p>} )}</div>
+            <div className="workout-list">
+          <div>{this.state.exercise.name}</div>
         </div>
       );
     }
@@ -38,6 +37,8 @@ export default class Plans extends React.Component {
         loading: true,
         exercise: null
     };
+
+    
 
 }
 // function Plans() {

@@ -30,3 +30,31 @@
     flex-direction: column;
     text-align: center;
 }
+
+.retrieving-workout-plan {
+    display: flex;
+        width: 40rem;
+        height: 4rem;
+        position: absolute;
+        bottom: 63%;
+        right: 50%;
+        left: 43%;
+        opacity: 100%;
+        text-align: center;
+        max-width: 100%;
+        min-width: 100%;
+}
+
+.workout-list {
+    display: flex;
+    width: 40rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 63%;
+    right: 50%;
+    left: 25%;
+    opacity: 100%;
+    text-align: center;
+    max-width: 100%;
+    min-width: 100%;
+}
