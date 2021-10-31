@@ -1,3 +1,15 @@
+.streak-counter-display-2 {
+  display: flex;
+    width: 20%;
+    height: 10rem;
+    background: black;
+    position: absolute;
+    bottom: 30.5%;
+    right: 50%;
+    left: 40%;
+    opacity:10%;
+    text-align: center;
+}
 .streak-counter-btn {
     font-family: Montserrat, sans-serif;
     display: flex;

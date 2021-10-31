@@ -56,6 +56,9 @@ function Streak () {
             setStreak(userdata, 1)
             gituserdata()
           }}>+</button>
+        <div className="streak-counter-display-2">
+                <h3 className="text"> </h3>
+            </div>
         </div>
       </div>
     );
