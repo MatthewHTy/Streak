@@ -1,42 +1,29 @@
-//  api test
-import React from 'react';
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 
-export default class Plans extends React.Component {
-
-    state = {
-        loading: true,
-        exercise: null
-    };
+function Plan5() {
+    const [posts, setPosts] = useState([])
     
-    async componentDidMount() {
-        const url = "https://my-workout-api.herokuapp.com/results/";
-        const response = await fetch(url);
-        const data = await response.json();
-        console.log(data)
-        this.setState({ exercise: data.results, loading: false });
-    }
-    
-    render() {
-        if (this.state.loading) {
-            return <div className="retrieving-workout-plan">Retrieving Workout Plan...</div>;
-        }
-        
-        if (!this.state.exercise) {
-            return <div>No Workouts</div>;
-        }
-        
-        return (
-            <div className="workout-list">
-            <div>{this.state.exercise.name}</div>
-          </div>
-      );
-    }
-
-    state = {
-        loading: true,
-        exercise: null
-    };
-
-    
-
+    useEffect(() => {
+        axios
+        .get('https://my-workout-api.herokuapp.com/results')
+        .then(res => {
+            console.log(res)
+            setPosts(res.data)
+        }) 
+        .catch(err => {
+            console.log(err)
+        })
+    }, [])
+    return (
+        <div>
+            <ul>
+                {posts.map(post => (
+                    <li key={post.id}>{post.name}</li>
+                ))}
+            </ul>
+        </div>
+    )
 }
+
+export default Plan5
