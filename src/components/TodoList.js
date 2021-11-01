@@ -4,7 +4,7 @@ import Todo from './Todo';
 import './Todo.css';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useHistory } from 'react-router';
-import { auth, gituser } from '../firebase/firebase';
+import { auth, gituser, setEntries} from '../firebase/firebase';
 import { useEffect } from 'react/cjs/react.development';
 
 function TodoList() {
@@ -32,7 +32,7 @@ function TodoList() {
         // eslint-disable-next-line react-hooks/exhaustive-deps
         }, [user, loading]);
 
-  const [todos, setTodos] = useState([]);
+  const [todos, setEntries] = useState([]);
 
   const addTodo = todo => {
     if (!todo.text || /^\s*$/.test(todo.text)) {
@@ -41,7 +41,7 @@ function TodoList() {
 
     const newTodos = [todo, ...todos];
 
-    setTodos(newTodos);
+    setEntries(newTodos);
     console.log(...todos);
   };
 
@@ -50,13 +50,13 @@ function TodoList() {
       return;
     }
 
-    setTodos(prev => prev.map(item => (item.id === todoId ? newValue : item)));
+    setEntries(prev => prev.map(item => (item.id === todoId ? newValue : item)));
   };
 
   const removeTodo = id => {
     const removedArr = [...todos].filter(todo => todo.id !== id);
 
-    setTodos(removedArr);
+    setEntries(removedArr);
   };
 
   const completeTodo = id => {
@@ -66,7 +66,7 @@ function TodoList() {
       }
       return todo;
     });
-    setTodos(updatedTodos);
+    setEntries(updatedTodos);
   };
 
   return (

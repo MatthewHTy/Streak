@@ -41,17 +41,18 @@ function Streak () {
                 <h3 className="text"> </h3>
             </div>
         <h1 className="streak--title">{userdata.name}'s Streak</h1>
-        <div className="number-display">
 
+        <div className="number-display">
         <h1 className={userdata.streak > 0 ? "positive" : userdata.streak < 0 ? "negative" : null}>
-          {userdata.streak}
-        </h1>
+          {userdata.streak}</h1>
         </div>
+
         <div className="button__wrapper">
           <button onClick={() => {
             setStreak(userdata, -1)
             gituserdata()
           }}>-</button>
+
           <button onClick={() => {
             setStreak(userdata, 1)
             gituserdata()
