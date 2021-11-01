@@ -33,7 +33,10 @@ function Streak () {
 
   
     return (
-      <div className="streak-counter-btn">
+    <div>
+
+
+    <div className="streak-counter-btn">
         {
           // if else statement to determine color of the counter
         }
@@ -61,6 +64,7 @@ function Streak () {
                 <h3 className="text"> </h3>
             </div>
         </div>
+      </div>
       </div>
     );
   }
