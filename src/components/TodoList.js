@@ -32,7 +32,7 @@ function TodoList() {
         // eslint-disable-next-line react-hooks/exhaustive-deps
         }, [user, loading]);
 
-  const [todos, setEntries] = useState([]);
+  const [todos, setTodos] = useState([]);
 
   const addTodo = todo => {
     if (!todo.text || /^\s*$/.test(todo.text)) {
@@ -41,7 +41,7 @@ function TodoList() {
 
     const newTodos = [todo, ...todos];
 
-    setEntries(newTodos);
+    setTodos(newTodos);
     console.log(...todos);
   };
 
@@ -50,13 +50,13 @@ function TodoList() {
       return;
     }
 
-    setEntries(prev => prev.map(item => (item.id === todoId ? newValue : item)));
+    setTodos(prev => prev.map(item => (item.id === todoId ? newValue : item)));
   };
 
   const removeTodo = id => {
     const removedArr = [...todos].filter(todo => todo.id !== id);
 
-    setEntries(removedArr);
+    setTodos(removedArr);
   };
 
   const completeTodo = id => {
@@ -66,7 +66,7 @@ function TodoList() {
       }
       return todo;
     });
-    setEntries(updatedTodos);
+    setTodos(updatedTodos);
   };
 
   return (

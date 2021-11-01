@@ -116,13 +116,13 @@ const setStreak = async (user, num) => {
   }
 }
 
-const setEntries = async (user) => {
+const setEntries = async (user, todo) => {
   try {
     await db
     .collection('users')
     .doc(user.uid)
     .update({
-      entries: user.entries
+      entries: todo
     })
   } catch (error) {
     console.error(error)
