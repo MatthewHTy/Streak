@@ -4,6 +4,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    bottom: -110%;
+    right: 50%;
+    left: 0%;
   }
   .login__container {
     display: flex;
@@ -44,3 +48,4 @@
 .forgotpassword_btn {
   color: rgba(9, 240, 255, 0.75);
 }
+

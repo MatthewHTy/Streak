@@ -116,6 +116,19 @@ const setStreak = async (user, num) => {
   }
 }
 
+const setEntries = async (user) => {
+  try {
+    await db
+    .collection('users')
+    .doc(user.uid)
+    .update({
+      entries: user.entries
+    })
+  } catch (error) {
+    console.error(error)
+  }
+}
+
 export {
   auth,
   db,
@@ -125,5 +138,6 @@ export {
   sendPasswordResetEmail,
   logout,
   gituser,
-  setStreak
+  setStreak,
+  setEntries
 };

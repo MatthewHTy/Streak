@@ -41,7 +41,7 @@ import './Homepage.css'
                 <h3 className="text"> </h3>
             </div>
             <div className="welcome-to-streak">
-                <h3 className="text"> Welcome, {userdata.name}</h3>
+                <h3 className="text"> Welcome, {userdata.name} </h3>
 
             <div className="rectangle-2">
                 <h3 className="text"> </h3>

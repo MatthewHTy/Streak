@@ -17,12 +17,11 @@ import Plan4 from './components/pages/Plans/Plan4';
 import Plan5 from './components/pages/Plans/Plan5';
 import Plan6 from "./components/pages/Plans/Plan6";
 
-
 function App() {
   return (
-
+<div>
+    
         <div className="navbar">
-        <div className="firebase">
       
         <MainNavigation />
         <Switch>
@@ -52,6 +51,7 @@ function App() {
         </Switch>
 
       </div>
+        <div className="firebase">
 
       <Router> 
         <Switch> 
@@ -62,6 +62,7 @@ function App() {
         </Switch>
       </Router>
     </div>
+</div>
     // Firebase
 
   );
