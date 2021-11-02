@@ -1,4 +1,5 @@
 # Streak - Daily Workout Planner
+https://streak-ty.herokuapp.com/
 
 Do you have a problem consistently working out? Streak is an app for users who would like to start being consistent at the gym. 
 
