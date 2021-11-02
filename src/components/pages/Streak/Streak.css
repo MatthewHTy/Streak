@@ -22,15 +22,19 @@
 
 .number-display {
   display: flex;
+  position: absolute;
+  bottom: 40%;
+  right: 50%;
+  left: 48.5%;
 }
   
   .button__wrapper {
     display: flex;
     gap: 3rem;
     position: absolute;
-    bottom: 30.5%;
+    bottom: 35.5%;
     right: 50%;
-    left: 46.5%;
+    left: 46.8%;
 }   
   
 .streak-counter-display {
@@ -56,4 +60,13 @@
     left: 37%;
     opacity: 100%;
     text-align: center;
+}
+
+.streak-photo2 {
+  height: auto;
+  max-width: 100%;
+  position: absolute;
+    bottom: 8%;
+    right: 50%;
+    left: 0%;
 }

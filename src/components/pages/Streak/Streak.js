@@ -35,6 +35,9 @@ function Streak () {
     return (
     <div>
 
+<div className="streak-image">
+                <img className="streak-photo2" src="./images/streak.png" alt="Streak"/>
+            </div>
 
     <div className="streak-counter-btn">
         {
