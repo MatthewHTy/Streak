@@ -68,7 +68,7 @@ import './Homepage.css'
                 <h2 className="text">Streak's Goal</h2>
             </div>
             <div className="streak-goal">
-                <p>Lorem Ipsum</p>
+                <p> Create a community that helps people get back into the gym consistently. </p>
             </div>
             </div>
             </div>
