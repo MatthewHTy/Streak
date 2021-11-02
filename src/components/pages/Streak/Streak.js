@@ -39,6 +39,10 @@ function Streak () {
                 <img className="streak-photo2" src="./images/streak.png" alt="Streak"/>
             </div>
 
+            <div className="streak-rectangle">
+                <h3 className="text"> </h3>
+            </div>
+
     <div className="streak-counter-btn">
         {
           // if else statement to determine color of the counter

@@ -30,7 +30,7 @@
     display: flex;
     gap: 4rem;
     position: absolute;
-    bottom: 33.5%;
+    bottom: 36.5%;
     right: 50%;
     left: 46.2%;
 }   
@@ -67,4 +67,17 @@
     bottom: 8%;
     right: 50%;
     left: 0%;
+}
+
+.streak-rectangle {
+  display: flex;
+    width: 12%;
+    height: 10rem;
+    background: black;
+    position: absolute;
+    bottom: 32%;
+    right: 50%;
+    left: 44%;
+    opacity: 70%;
+    text-align: center;
 }
