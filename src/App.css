@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(90deg, #000000 0%, rgba(0, 141, 150, 0.75) 50%, #000000 100%);
-    max-width: 100%;
-    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
   }
 

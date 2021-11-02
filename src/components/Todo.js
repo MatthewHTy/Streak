@@ -1,10 +1,37 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import TodoForm from './TodoForm';
 import { RiCloseCircleLine } from 'react-icons/ri';
 import { TiEdit } from 'react-icons/ti';
 import './Todo.css';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { auth, gituser } from '../firebase/firebase';
+import { useHistory } from 'react-router';
 
 const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
+
+  const [user, loading] = useAuthState(auth);
+  const history = useHistory();
+
+  const [userdata, setuserdata] = useState({
+    name: 'user',
+    email: 'email',
+    uid: '0',
+    streak: 0,
+    entries: [],
+    highscore: 0
+  })
+
+  const gituserdata = async () => {
+    setuserdata(await gituser(user)) 
+  }
+
+  useEffect(() => {
+    if (loading) return;
+    if (!user) return history.replace("/");
+    gituserdata();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user, loading]);
+
   const [edit, setEdit] = useState({
     id: null,
     value: ''

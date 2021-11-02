@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useHistory } from 'react-router';
-import { auth, gituser } from '../firebase/firebase';
+import { auth, gituser, setEntries } from '../firebase/firebase';
 import './Todo.css';
 
 function TodoForm(props) {
@@ -46,7 +46,8 @@ function TodoForm(props) {
 
     props.onSubmit({
       id: Math.floor(Math.random() * 10000),
-      text: input
+      text: input,
+      entries: userdata
     });
     setInput('');
   };
@@ -81,7 +82,10 @@ function TodoForm(props) {
             className='todo-input'
             ref={inputRef}
             />
-          <button onClick={handleSubmit} className='todo-button'>
+          <button onClick={() => {
+            setEntries(userdata, '') 
+            gituserdata()
+          }} className='todo-button'>
             Add Exercise
           </button>
             </div>
