@@ -24,17 +24,15 @@
   display: flex;
   position: absolute;
   bottom: 40%;
-  right: 50%;
-  left: 48.5%;
 }
   
   .button__wrapper {
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
     position: absolute;
-    bottom: 35.5%;
+    bottom: 33.5%;
     right: 50%;
-    left: 46.8%;
+    left: 46.2%;
 }   
   
 .streak-counter-display {
