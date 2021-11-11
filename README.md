@@ -18,6 +18,6 @@ Do you have a problem consistently working out? Streak is an app for users who w
 * Users can store daily journal entries to the website.
 * Users can compete for the highest streak and earn points.
 * Users have a google calendar they can interact with.
-
+* Users can track their high scores. 
 
 
